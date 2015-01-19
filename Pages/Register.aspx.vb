@@ -44,7 +44,7 @@ Partial Class Pages_Register
     Protected Sub btnReset_Click(sender As Object, e As EventArgs) Handles btnReset.Click
 
 
-        Response.Redirect("Login.aspx")
+        Me.Server.Transfer("Register.aspx")
     End Sub
 
 End Class
