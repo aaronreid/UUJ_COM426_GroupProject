@@ -1,8 +1,6 @@
 ﻿
-Partial Class Register
+Partial Class Pages_Register
     Inherits System.Web.UI.Page
-
-
 
     Protected Sub btnRegister_Click(sender As Object, e As EventArgs) Handles btnRegister.Click
 
@@ -37,7 +35,7 @@ Partial Class Register
 
         End If
 
-        
+
 
 
 
@@ -47,6 +45,6 @@ Partial Class Register
 
 
         Response.Redirect("Login.aspx")
-        'Me.Server.Transfer("Register.aspx")
     End Sub
+
 End Class

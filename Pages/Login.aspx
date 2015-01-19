@@ -1,34 +1,14 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Login.aspx.vb" Inherits="Login" %>
+﻿<%@ Page Title="" Language="VB" MasterPageFile="~/Masterpages/Index.master" AutoEventWireup="false" CodeFile="Login.aspx.vb" Inherits="Pages_test" %>
 
-<!DOCTYPE html>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-    <style type="text/css">
-        .auto-style1 {
-            width: 100%;
-        }
-        .auto-style2 {
-        }
-        .auto-style3 {
-            width: 152px;
-        }
-        .auto-style4 {
-            width: 202px;
-        }
-        .auto-style5 {
-            width: 210px;
-        }
-    </style>
-</head>
-<body>
-    <form id="form1" runat="server">
-    <div>
-    
-        <table class="auto-style1">
+    <div class="center">
+
+    <table class="auto-style1">
             <tr>
-                <td class="auto-style2" colspan="2">
+                <td colspan="2">
                     <h2>Login or Register</h2>
                 </td>
                 <td colspan="2">
@@ -78,7 +58,6 @@
             </tr>
             </table>
     
-    </div>
-    </form>
-</body>
-</html>
+        </div>
+</asp:Content>
+

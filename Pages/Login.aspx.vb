@@ -1,5 +1,5 @@
 ﻿
-Partial Class Login
+Partial Class Pages_test
     Inherits System.Web.UI.Page
 
     Protected Sub btnLogin_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
@@ -26,4 +26,6 @@ Partial Class Login
             txtUsername.Focus()
         End If
     End Sub
+
+
 End Class
