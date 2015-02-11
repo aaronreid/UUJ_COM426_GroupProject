@@ -10,14 +10,18 @@
     article, aside, canvas, details, figcaption, figure, 
     footer, header, hgroup, menu, nav, section, summary,
     time, mark, audio, video {
-        margin:0;
-        padding:0;
-        border:0;
-        outline:0;
-        font-size:100%;
+        border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    padding: 0;
+    outline: 0;
+    font-size:100%;
         vertical-align:baseline;
         background:transparent;
-    }
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
     body {
         line-height:1;
@@ -96,6 +100,6 @@
 
     input, select {
         vertical-align:middle;
-    text-align: left;
+    text-align: center;
     margin-left: 0px;
 }
